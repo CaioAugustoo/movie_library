@@ -26,6 +26,7 @@ import { useParams } from "react-router-dom";
 import MovieTrailer from "../MovieTrailer/MovieTrailer";
 import NotFoundSvg from "../../svg/not_found.svg";
 import RecommendedMovies from "../RecommendedMovies/RecommendationsMoviesSection";
+import ApiKey from '../../services/apikey';
 
 const MovieDetails = ({ dataMovie, dataPlayer }) => {
   const navigate = useNavigate();
@@ -131,7 +132,7 @@ const MovieDetails = ({ dataMovie, dataPlayer }) => {
             {player && (
               <>
                 <MovieTrailer dataPlayer
-                  src={`https://api.themoviedb.org/3/movie/${params.id}/videos?api_key=acff09132ee8b54bee9960d2117ceea8`}
+                  src={`https://api.themoviedb.org/3/movie/${params.id}/videos?api_key=${ApiKey}`}
                 />  
 
                 <CloseButton onClick={() => setPlayer(false)}>
