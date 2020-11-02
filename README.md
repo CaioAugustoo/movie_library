@@ -1,7 +1,7 @@
-# Movie Library
+# 🎬 Movie Library
 Bibliotca de filmes desenvolvida com ReactJS.
 
-## Sobre o projeto 
+## ℹ️ Sobre o projeto 
 Este projeto consiste em uma biblioteca de filmes. A mesma mostra os filmes mais populares, mais bem avaliados e os que chegam em breve. Além disso, podemos pesquisar
 por qualquer filme (tanto uma pesquisa em português ou em inglês). Os dados vem da [api do TMDB](https://www.themoviedb.org/settings/api?language=pt-BR). (para testar esse projeto
 você precisa de uma chave única fornecida no link citado anteriormente)
@@ -11,7 +11,7 @@ Quando clicamos em um filme específico, somos redirecionados à uma página que
 ou assistir o trailer official do filme dentro da plataforma. É retornado, também, filmes recomendados baseados no filme escolhido.
 
 
-## Demonstração
+## ✨ Demonstração
 Veja abaixo uma foto do projeto.
 [![Image from Gyazo](https://i.gyazo.com/bb62c9b03ed277f260b1f36567b14c13.jpg)](https://gyazo.com/bb62c9b03ed277f260b1f36567b14c13)
 
@@ -19,10 +19,10 @@ Veja abaixo uma foto do projeto.
 
 Você pode conferir o resultado final em: https://library-movie.netlify.app
 
-## Objetivo do projeto
+## 🎯 Objetivo do projeto
 Foi realizado este projeto com o intuito de aplicar os conhecimentos adquiridos com React. Foi reforçado, também, os conhecimentos com Hooks, Rotas, API, etc.
 
-## Tecnologias 
+## 📝 Tecnologias 
 Para a realização desse projeto foi utilizado as seguintes tecnologias/linguagens: 
 - [ReactJS](https://pt-br.reactjs.org) para criação da interface
 - [TMDB API](https://www.themoviedb.org/settings/api?language=pt-BR) para acessarmos os dados
@@ -32,7 +32,7 @@ Para a realização desse projeto foi utilizado as seguintes tecnologias/linguag
 - [styled-components](https://styled-components.com) para a estilização
 - [react-tooltip](https://www.npmjs.com/package/react-tooltip) para o uso de tooltips
 
-## Instalação
+## ⚙️ Instalação
 Para que este rode em sua máquina, siga os passos abaixo:
 
 ```bash
